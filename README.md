@@ -1,4 +1,4 @@
-# Informe-Bioinform-tica-IV
+# Informe Bioinformática IV
 Luciano Frez
 
 **¿Qué cosas ofrece este portal?** 
