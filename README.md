@@ -11,11 +11,11 @@ The "A la carte mode" offers the possibility of running and testing more alignme
 Alternatively, users have the possibility to run the different programs separately.
 
 **¿Para qué tipo de usuario está diseñado?**
-
+está diseñado para usuarios que esten interesados en general algun tipo de filogenia entre diferentes especies.
 *Menciona 5 tipos de análsis que se pueden realizar en el portal de acuerdo a la documentación*
-
+colocar los 3 q aparecen y otros dos(blast y uno más), explicar para q sirve cada uno.
 **¿A qué se refiere el paso de *Alignment curation* y para qué sirve?**
-
+se refiere a q son secuencias sin ''errores''. al encontrarse el Gblocks el cual elimina posiciones mal alineadas y regiones divergentes. en el caso de remove position with gaps, esta elimina literalmente las posiciones en las q haya algpun gap, haciendo la
 **¿Cuál es la diferencia entre BioNJ y Neighbor?** *(Pista: revisa la documentación)*
  
 **Corre de nuevo las filogenias pero esta vez sin *Alignment curation*. ¿Cuál es el efecto en las filogenias?**
