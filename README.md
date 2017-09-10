@@ -17,7 +17,14 @@ está diseñado para usuarios que esten interesados en general algun tipo de fil
 
 *Menciona 5 tipos de análsis que se pueden realizar en el portal de acuerdo a la documentación*
 
-colocar los 3 q aparecen y otros dos(blast y uno más), explicar para q sirve cada uno.
+"One Click" mode:
+
+Advanced mode:
+
+"A la carte" mode:
+
+Blast: Explore your sequence neighbors:
+
 
 **¿A qué se refiere el paso de *Alignment curation* y para qué sirve?**
 se refiere a q son secuencias sin ''errores''. al encontrarse el Gblocks el cual elimina posiciones mal alineadas y regiones divergentes. en el caso de remove position with gaps, esta elimina literalmente las posiciones en las q haya algpun gap, haciendo la
