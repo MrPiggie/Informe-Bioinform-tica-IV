@@ -34,3 +34,17 @@ se refiere a q son secuencias sin ''errores''. al encontrarse el Gblocks el cual
 **Corre de nuevo las filogenias pero esta vez sin *Alignment curation*. ¿Cuál es el efecto en las filogenias?**
 
 *Describe las diferencias entre las filogenias que has estimado: cantidad de grupos monofiléticos, relaciones que potencialmente cambiaron, etc.*
+
+![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ClustalW,Remove%20positions%20with%20gap,%20TNT,%20y%20TreeDyn%20the%20real.png?raw=true)
+Imagen I: ClustalW,Remove positions with gap, TNT, y TreeDyn.
+
+![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ProbCons,%20GBlocks,%20MrBayes,%20y%20TreeDyn%20the%20real.png?raw=true)
+Imagen II: ProbCons, GBlocks, MrBayes, y TreeDyn.
+
+![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ClustalW,%20TNT,%20y%20TreeDyn.png?raw=true)
+Imagen III: ClustalW, TNT, y TreeDyn
+
+![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ProbCons,%20MrBayes,%20y%20TreeDyn.png?raw=true)
+Imagen IV: ProbCons, MrBayes, y TreeDyn.
+
+
