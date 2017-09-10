@@ -3,27 +3,34 @@ Luciano Frez
 
 **¿Qué cosas ofrece este portal?** 
  
- has been designed to provide a high performance platform that transparently chains programs relevant to phylogenetic analysis in a comprehensive, and flexible pipeline. Although phylogenetic aficionados will be able to find most of their favorite tools and run sophisticated analysis, the primary philosophy of Phylogeny.fr is to assist biologists with no experience in phylogeny in analyzing their data in a robust way.
- 
- The Phylogeny.fr platform offers a phylogeny pipeline which can be executed through three main modes:
-The "One Click mode" targets users that do not wish to deal with program and parameter selection. By default, the pipeline is already set up to run and connect programs recognized for their accuracy and speed (MUSCLE for multiple alignment and PhyML for phylogeny) to reconstruct a robust phylogenetic tree from a set of sequences.
-In the "Advanced mode", the Phylogeny.fr server proposes the succession of the same programs but users can choose the steps to perform (multiple sequence alignment, phylogenetic reconstruction, tree drawing) and the options of each program.
-The "A la carte mode" offers the possibility of running and testing more alignment and phylogeny programs, such as MUSCLE, ClustalW, T-Coffee, PhyML, BioNJ, TNT,...
-Alternatively, users have the possibility to run the different programs separately.
+a sido diseñado para proporcionar una plataforma de alto rendimiento que transcribe de forma transparente los programas relevantes para el análisis filogenético en una tubería completa y flexible. Aunque los aficionados filogenéticos podrán encontrar la mayoría de sus herramientas favoritas y realizar análisis sofisticados, la filosofía primaria de Phylogeny.fr es ayudar a los biólogos sin experiencia en la filogenia en el análisis de sus datos de una manera robusta.
+ 
+ La plataforma Phylogeny.fr ofrece una línea de filogenia que se puede ejecutar a través de tres modos principales:
+El "Modo de un clic" se dirige a los usuarios que no desean tratar con la selección de programas y parámetros. De forma predeterminada, la tubería ya está configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple y PhyML para filogenia) para reconstruir un árbol filogenético robusto a partir de un conjunto de secuencias.
+En el modo avanzado, el servidor Phylogeny.fr propone la sucesión de los mismos programas, pero los usuarios pueden elegir los pasos a realizar (alineación de secuencias múltiples, reconstrucción filogenética, dibujo de árboles) y las opciones de cada programa.
+El "modo a la carta" ofrece la posibilidad de correr y probar más programas de alineación y filogenia, como MUSCLE, ClustalW, T-Coffee, PhyML, BioNJ, TNT, ...
+Como alternativa, los usuarios tienen la posibilidad de ejecutar los diferentes programas por separado.
 
 **¿Para qué tipo de usuario está diseñado?**
 
-está diseñado para usuarios que esten interesados en general algun tipo de filogenia entre diferentes especies.
+Está diseñado para usuarios que esten interesados en generar algun tipo de filogenia entre diferentes especies.
 
 *Menciona 5 tipos de análsis que se pueden realizar en el portal de acuerdo a la documentación*
 
-"One Click" mode:
+**"One Click" mode:** Este es un modo "predeterminado" que propone una tubería ya configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple, opcionalmente Gblocks para alineación curation, PhyML para phylogeny y finalmente TreeDyn para dibujo de árboles) para reconstruir una robusto árbol filogenético de un conjunto de secuencias. Lo que los usuarios tienen que hacer es simplemente copiar y pegar su conjunto de secuencias en el formato FASTA (o cargar su archivo FASTA) y hacer clic en el botón Enviar. El sistema hará todo el trabajo resto, todos los parámetros son los de los programas por defecto. Sin embargo, los usuarios pueden decidir usar o no el programa Gblocks para eliminar posiciones mal alineadas y regiones divergentes, marcando la casilla correspondiente en la página de formulario. Al final del análisis, el servidor muestra una imagen de calidad de publicación del árbol filogenético.
 
-Advanced mode:
+**Advanced mode:** El oleoducto es el mismo que el modo "Un clic", pero es lo suficientemente flexible como para permitir a los usuarios seleccionar los pasos a realizar. De esta manera, los datos de entrada pueden ser un conjunto de secuencias no alineadas en formato FASTA, una alineación de múltiples secuencias en formato FASTA, PHYLIP o Clustal, o un árbol en formato NEWICK.
+Los usuarios disponen de opciones para establecer los parámetros de los diferentes programas de la tubería.
+Además, el sistema ofrece la posibilidad de controlar los resultados de cada paso antes de lanzar el siguiente programa, para que los usuarios puedan modificar y ajustar adecuadamente los parámetros de una tarea determinada. Esto es posible al comprobar la opción "Paso a paso".
+En el caso de un "Todos a la vez", al final del proceso de la canalización, los usuarios tienen acceso a informes detallados para todos los diferentes pasos de análisis de la tubería a través de diferentes pestañas de resultados. posibilidad de ver una representación esquemática del flujo de trabajo, con detalles sobre las opciones de software, así como las referencias de las diferentes herramientas seleccionadas. Este resumen de la ejecución se puede acceder a través de la pestaña "Resumen" desde que se finaliza el análisis. Esta funcionalidad también es observable en el "modo de un clic". En el caso de un análisis "paso a paso", los usuarios tienen la posibilidad de controlar y editar los resultados de cada paso antes de lanzar el siguiente programa.
 
-"A la carte" mode:
+**"A la carte" mode:** El servidor ofrece la posibilidad de ejecutar otros programas de alineación y filogenia que los preseleccionados en los modos "Un clic" y "Avanzado":
+una alineación de secuencias múltiples utilizando MUSCLE, T-Coffee, 3D-Coffee, ProbCons o ClustalW según la preferencia del usuario
+una reconstrucción filogenética utilizando PhyML, TNT, MrBayes, BioNJ o Vecino y
+la generación de una imagen de calidad de publicación del árbol filogenético resultante usando TreeDyn, Drawgram o Drawtree
 
-Blast: Explore your sequence neighbors:
+**Blast: Explore your sequence neighbors:** Una búsqueda rápida de BLAST en Gigablaster permite explorar rápidamente sus vecinos de secuencias. Pega tu única secuencia, ejecuta explosión y explorar sus secuencias homólogas. El sistema facilita la selección de secuencias homólogas, basadas en una representación filogenética "rápida y sucia" usando los resultados de BLAST y un estimador de la longitud de alineación múltiple final.
+
 
 
 **¿A qué se refiere el paso de *Alignment curation* y para qué sirve?**
