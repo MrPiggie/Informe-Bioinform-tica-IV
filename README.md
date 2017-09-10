@@ -34,6 +34,7 @@ la generación de una imagen de calidad de publicación del árbol filogenético
 
 
 **¿A qué se refiere el paso de *Alignment curation* y para qué sirve?**
+
 se refiere a q son secuencias sin ''errores''. al encontrarse el Gblocks el cual elimina posiciones mal alineadas y regiones divergentes. en el caso de remove position with gaps, esta elimina literalmente las posiciones en las q haya algpun gap, haciendo la
 
 **¿Cuál es la diferencia entre BioNJ y Neighbor?** *(Pista: revisa la documentación)*
