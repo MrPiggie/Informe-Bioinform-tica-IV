@@ -39,7 +39,11 @@ Las diferencias entre BIoNJ y Neighbor es qué: BIoNJ es más adecuado para esti
 
 *Corre de nuevo las filogenias pero esta vez sin *Alignment curation*.* **¿Cuál es el efecto en las filogenias?**
 
-Los efectos en las filogénias al eliminar ''Alingment curation'' del análisis son para: ''ClustalW,Remove positions with gap, TNT, y TreeDyn vs ClustalW, TNT, y TreeDyn'' ''ProbCons, GBlocks, MrBayes, y TreeDyn vs ProbCons, MrBayes, y TreeDyn''
+Los efectos en las filogénias al eliminar ''Alingment curation'' del análisis son para:
+
+**''ClustalW,Remove positions with gap, TNT, y TreeDyn vs ClustalW, TNT, y TreeDyn''** los árboles filogenéticos no presentaron variación entre ellos al eliminar ''Alignment curation''
+
+**''ProbCons, GBlocks, MrBayes, y TreeDyn vs ProbCons, MrBayes, y TreeDyn''**
 
 *Describe las diferencias entre las filogenias que has estimado: cantidad de grupos monofiléticos, relaciones que potencialmente cambiaron, etc.*
 
