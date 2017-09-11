@@ -35,7 +35,7 @@ Los usuarios disponen de opciones para establecer los parámetros de los diferen
 
 **¿Cuál es la diferencia entre BioNJ y Neighbor?** *(Pista: revisa la documentación)*
  
-Las diferencias entre BIoNJ y Neighbor es qué: BIoNJ es más adecuado para estimar distancias a partir de secuencias de ADN o proteínas. Este tiene mejor precisión topológica que NJ(Neighbor-Joining) en todas las condiciones evolutivas; esto se hace notorio cuando las tasas de sustitución son altas y varían entre los linajes. Sin embargo, los árboles BIONJ y NJ a menudo son cercanos o idénticos, especialmente cuando el número de taxones es bajo. BIONJ mantiene la velocidad de NJ y puede aplicarse a conjuntos de datos muy grandes (> 1000 taxones). BIONJ también se puede ejecutar en varias matrices para construir árboles bootstrap, pero las distancias deben ser corregidas.
+Las diferencias entre BIoNJ y Neighbor es qué: BIoNJ es más adecuado para estimar distancias a partir de secuencias de ADN o proteínas. Este tiene mejor precisión topológica que NJ(Neighbor-Joining) en todas las condiciones evolutivas; esto se hace notorio cuando las tasas de sustitución son altas y varían entre los linajes. Sin embargo, los árboles BIONJ y NJ a menudo son cercanos o idénticos, especialmente cuando el número de taxones es bajo. BIONJ mantiene la velocidad de NJ y puede aplicarse a conjuntos de datos muy grandes (> 1000 taxones). BIONJ también se puede ejecutar en varias matrices para construir árboles bootstrap, pero las distancias deben ser corregidas.(1)
 
 *Corre de nuevo las filogenias pero esta vez sin *Alignment curation*.* **¿Cuál es el efecto en las filogenias?**
 
@@ -55,4 +55,6 @@ No hubo cambios en los árboles filogenéticos al eliminar el ''Alignment curati
 ![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ProbCons,%20MrBayes,%20y%20TreeDyn.png?raw=true)
 **Imagen IV:** ProbCons, MrBayes, y TreeDyn.
 
+# **Bibliografía:**
 
+(1) http://www.atgc-montpellier.fr/bionj/ 11/09/17 19:25
