@@ -3,43 +3,43 @@ Luciano Frez
 
 **¿Qué cosas ofrece este portal?** 
  
-a sido diseñado para proporcionar una plataforma de alto rendimiento que transcribe de forma transparente los programas relevantes para el análisis filogenético en una tubería completa y flexible. Aunque los aficionados filogenéticos podrán encontrar la mayoría de sus herramientas favoritas y realizar análisis sofisticados, la filosofía primaria de Phylogeny.fr es ayudar a los biólogos sin experiencia en la filogenia en el análisis de sus datos de una manera robusta.
- 
- La plataforma Phylogeny.fr ofrece una línea de filogenia que se puede ejecutar a través de tres modos principales:
-El "Modo de un clic" se dirige a los usuarios que no desean tratar con la selección de programas y parámetros. De forma predeterminada, la tubería ya está configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple y PhyML para filogenia) para reconstruir un árbol filogenético robusto a partir de un conjunto de secuencias.
-En el modo avanzado, el servidor Phylogeny.fr propone la sucesión de los mismos programas, pero los usuarios pueden elegir los pasos a realizar (alineación de secuencias múltiples, reconstrucción filogenética, dibujo de árboles) y las opciones de cada programa.
-El "modo a la carta" ofrece la posibilidad de correr y probar más programas de alineación y filogenia, como MUSCLE, ClustalW, T-Coffee, PhyML, BioNJ, TNT, ...
-Como alternativa, los usuarios tienen la posibilidad de ejecutar los diferentes programas por separado.
+a sido diseñado para proporcionar una plataforma de alto rendimiento que transcribe de forma transparente los programas relevantes para el análisis filogenético. La filosofía primaria de Phylogeny.fr es ayudar a los biólogos sin experiencia en la filogenia en el análisis de sus datos.
+
+ La plataforma Phylogeny.fr ofrece una línea de filogenia que se puede ejecutar a través de tres modos principales:
+El **"One Click" mode:** se dirige a los usuarios que no desean tratar con la selección de programas y parámetros. ya está configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple y PhyML para filogenia) para reconstruir un árbol filogenético a partir de un conjunto de secuencias.
+En el **Advanced mode:**, el servidor Phylogeny.fr propone la sucesión de los mismos programas, pero los usuarios pueden elegir los pasos a realizar (alineación de secuencias múltiples, reconstrucción filogenética, dibujo de árboles) y las opciones de cada programa.
+El **"A la carte" mode:** ofrece la posibilidad de correr y probar más programas de alineación y filogenia, como MUSCLE, ClustalW, T-Coffee, PhyML, BioNJ, TNT, etc)
 
 **¿Para qué tipo de usuario está diseñado?**
 
-Está diseñado para usuarios que esten interesados en generar algun tipo de filogenia entre diferentes especies.
+La plataforma está diseñada para usuarios que estén interesados en realizar un árbol filogenético, pero sin tener experiencia en este proceso. Ayuda a manejar grandes cantidades de información y así llegar a un producto de manera más rápida y efectiva a través de los diferentes programas que utiliza para generar estos procesos.(MUSCLE para alineación múltiple y PhyML para filogenia, ClustalW, T-Coffee, PhyML, BioNJ, TNT, etc) 
 
 *Menciona 5 tipos de análsis que se pueden realizar en el portal de acuerdo a la documentación*
 
-**"One Click" mode:** Este es un modo "predeterminado" que propone una tubería ya configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple, opcionalmente Gblocks para alineación curation, PhyML para phylogeny y finalmente TreeDyn para dibujo de árboles) para reconstruir una robusto árbol filogenético de un conjunto de secuencias. Lo que los usuarios tienen que hacer es simplemente copiar y pegar su conjunto de secuencias en el formato FASTA (o cargar su archivo FASTA) y hacer clic en el botón Enviar. El sistema hará todo el trabajo resto, todos los parámetros son los de los programas por defecto. Sin embargo, los usuarios pueden decidir usar o no el programa Gblocks para eliminar posiciones mal alineadas y regiones divergentes, marcando la casilla correspondiente en la página de formulario. Al final del análisis, el servidor muestra una imagen de calidad de publicación del árbol filogenético.
+**"One Click" mode:** Este es un modo "predeterminado" que propone una fuente de información ya configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple, opcionalmente Gblocks para alineación curation, PhyML para phylogeny y finalmente TreeDyn para dibujo de árboles) para reconstruir un árbol filogenético de un conjunto de secuencias. 
 
-**Advanced mode:** El oleoducto es el mismo que el modo "Un clic", pero es lo suficientemente flexible como para permitir a los usuarios seleccionar los pasos a realizar. De esta manera, los datos de entrada pueden ser un conjunto de secuencias no alineadas en formato FASTA, una alineación de múltiples secuencias en formato FASTA, PHYLIP o Clustal, o un árbol en formato NEWICK.
+**Advanced mode:** La fuente de información es la misma que en el modo "One Click", pero es lo suficientemente flexible como para permitir a los usuarios seleccionar los pasos a realizar. De esta manera, los datos de entrada pueden ser un conjunto de secuencias no alineadas en formato FASTA, una alineación de múltiples secuencias en formato FASTA, PHYLIP o Clustal, o un árbol en formato NEWICK.
 Los usuarios disponen de opciones para establecer los parámetros de los diferentes programas de la tubería.
-Además, el sistema ofrece la posibilidad de controlar los resultados de cada paso antes de lanzar el siguiente programa, para que los usuarios puedan modificar y ajustar adecuadamente los parámetros de una tarea determinada. Esto es posible al comprobar la opción "Paso a paso".
-En el caso de un "Todos a la vez", al final del proceso de la canalización, los usuarios tienen acceso a informes detallados para todos los diferentes pasos de análisis de la tubería a través de diferentes pestañas de resultados. posibilidad de ver una representación esquemática del flujo de trabajo, con detalles sobre las opciones de software, así como las referencias de las diferentes herramientas seleccionadas. Este resumen de la ejecución se puede acceder a través de la pestaña "Resumen" desde que se finaliza el análisis. Esta funcionalidad también es observable en el "modo de un clic". En el caso de un análisis "paso a paso", los usuarios tienen la posibilidad de controlar y editar los resultados de cada paso antes de lanzar el siguiente programa.
 
-**"A la carte" mode:** El servidor ofrece la posibilidad de ejecutar otros programas de alineación y filogenia que los preseleccionados en los modos "Un clic" y "Avanzado":
-una alineación de secuencias múltiples utilizando MUSCLE, T-Coffee, 3D-Coffee, ProbCons o ClustalW según la preferencia del usuario
-una reconstrucción filogenética utilizando PhyML, TNT, MrBayes, BioNJ o Vecino y
-la generación de una imagen de calidad de publicación del árbol filogenético resultante usando TreeDyn, Drawgram o Drawtree
+**"A la carte" mode:** El servidor ofrece la posibilidad de ejecutar otros programas de alineación y filogenia que los preseleccionados en los modos "One Click" y "Advanced mode":
+-Una alineación de secuencias múltiples utilizando MUSCLE, T-Coffee, 3D-Coffee, ProbCons o ClustalW según la preferencia del usuario
+-Una reconstrucción filogenética utilizando PhyML, TNT, MrBayes, BioNJ o Vecino y
+-La generación de una imagen de calidad de publicación del árbol filogenético resultante usando TreeDyn, Drawgram o Drawtree
 
-**Blast: Explore your sequence neighbors:** Una búsqueda rápida de BLAST en Gigablaster permite explorar rápidamente sus vecinos de secuencias. Pega tu única secuencia, ejecuta explosión y explorar sus secuencias homólogas. El sistema facilita la selección de secuencias homólogas, basadas en una representación filogenética "rápida y sucia" usando los resultados de BLAST y un estimador de la longitud de alineación múltiple final.
-
+**Blast: Explore your sequence neighbors:** El sistema facilita la selección de secuencias homólogas, basadas en una representación filogenética "rápida y sucia" usando los resultados de BLAST y un estimador de la longitud de alineación múltiple final.
 
 
 **¿A qué se refiere el paso de *Alignment curation* y para qué sirve?**
 
-se refiere a q son secuencias sin ''errores''. al encontrarse el Gblocks el cual elimina posiciones mal alineadas y regiones divergentes. en el caso de remove position with gaps, esta elimina literalmente las posiciones en las q haya algpun gap, haciendo la
+''Alignment curation'' se refiere a las secuencias sin ''errores''. Es un proceso por el cual la plataforma elimina posibles ''errores'' dentro de la secuencia, en el caso de ''Gblocks'' el cual elimina posiciones mal alineadas y regiones divergentes y ''Remove position with gaps'', esta elimina literalmente las posiciones en las que haya algún gap, haciendo el alineamiento mucho más atildado.
 
 **¿Cuál es la diferencia entre BioNJ y Neighbor?** *(Pista: revisa la documentación)*
  
-**Corre de nuevo las filogenias pero esta vez sin *Alignment curation*. ¿Cuál es el efecto en las filogenias?**
+Las diferencias entre BIoNJ y Neighbor es qué: BIoNJ es más adecuado para estimar distancias a partir de secuencias de ADN o proteínas. Este tiene mejor precisión topológica que NJ(Neighbor-Joining) en todas las condiciones evolutivas; esto se hace notorio cuando las tasas de sustitución son altas y varían entre los linajes. Sin embargo, los árboles BIONJ y NJ a menudo son cercanos o idénticos, especialmente cuando el número de taxones es bajo. BIONJ mantiene la velocidad de NJ y puede aplicarse a conjuntos de datos muy grandes (> 1000 taxones). BIONJ también se puede ejecutar en varias matrices para construir árboles bootstrap, pero las distancias deben ser corregidas.
+
+*Corre de nuevo las filogenias pero esta vez sin *Alignment curation*.* **¿Cuál es el efecto en las filogenias?**
+
+Los efectos en las filogénias al eliminar ''Alingment curation'' del análisis son para: ''ClustalW,Remove positions with gap, TNT, y TreeDyn vs ClustalW, TNT, y TreeDyn'' ''ProbCons, GBlocks, MrBayes, y TreeDyn vs ProbCons, MrBayes, y TreeDyn''
 
 *Describe las diferencias entre las filogenias que has estimado: cantidad de grupos monofiléticos, relaciones que potencialmente cambiaron, etc.*
 
