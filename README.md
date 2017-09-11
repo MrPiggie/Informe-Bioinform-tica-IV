@@ -3,7 +3,7 @@ Luciano Frez
 
 **¿Qué cosas ofrece este portal?** 
  
-a sido diseñado para proporcionar una plataforma de alto rendimiento que transcribe de forma transparente los programas relevantes para el análisis filogenético. La filosofía primaria de Phylogeny.fr es ayudar a los biólogos sin experiencia en la filogenia en el análisis de sus datos.
+A sido diseñado para proporcionar una plataforma de alto rendimiento que transcribe de forma transparente los programas relevantes para el análisis filogenético. La filosofía primaria de Phylogeny.fr es ayudar a los biólogos sin experiencia en la filogenia en el análisis de sus datos.
 
  La plataforma Phylogeny.fr ofrece una línea de filogenia que se puede ejecutar a través de tres modos principales:
 El **"One Click" mode:** se dirige a los usuarios que no desean tratar con la selección de programas y parámetros. ya está configurada para ejecutar y conectar programas reconocidos por su precisión y velocidad (MUSCLE para alineación múltiple y PhyML para filogenia) para reconstruir un árbol filogenético a partir de un conjunto de secuencias.
@@ -39,22 +39,18 @@ Las diferencias entre BIoNJ y Neighbor es qué: BIoNJ es más adecuado para esti
 
 *Corre de nuevo las filogenias pero esta vez sin *Alignment curation*.* **¿Cuál es el efecto en las filogenias?**
 
-Los efectos en las filogénias al eliminar ''Alingment curation'' del análisis son para:
-
-**''ClustalW,Remove positions with gap, TNT, y TreeDyn vs ClustalW, TNT, y TreeDyn''** los árboles filogenéticos no presentaron variación entre ellos al eliminar ''Alignment curation''
-
-**''ProbCons, GBlocks, MrBayes, y TreeDyn vs ProbCons, MrBayes, y TreeDyn''**
+No hubo cambios en los árboles filogenéticos al eliminar el ''Alignment curation''. Si se hubiesen usado todas las demás secuencias, tal vez se pudo evidenciar algún tipo de diferencias, ya que, el ''Alignment curation'' es un prcedimiento el cual permite eliminar los ''errores'' presentes en las secuencias, y al eliminar este método correctivo, los alineamientos no puede ser correjidos generando errores a la hora de generar el árbol(algunas especies pueden aparecer más cerca de lo que realmente son u otras pueden separarse por mucha mayor distancia)
 
 *Describe las diferencias entre las filogenias que has estimado: cantidad de grupos monofiléticos, relaciones que potencialmente cambiaron, etc.*
 
 ![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ClustalW,Remove%20positions%20with%20gap,%20TNT,%20y%20TreeDyn%20the%20real.png?raw=true)
 **Imagen I:** ClustalW,Remove positions with gap, TNT, y TreeDyn.
 
-![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ProbCons,%20GBlocks,%20MrBayes,%20y%20TreeDyn%20the%20real.png?raw=true)
-**Imagen II:** ProbCons, GBlocks, MrBayes, y TreeDyn.
-
 ![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ClustalW,%20TNT,%20y%20TreeDyn.png?raw=true)
-**Imagen III:** ClustalW, TNT, y TreeDyn
+**Imagen II:** ClustalW, TNT, y TreeDyn
+
+![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ProbCons,%20GBlocks,%20MrBayes,%20y%20TreeDyn%20the%20real.png?raw=true)
+**Imagen III:** ProbCons, GBlocks, MrBayes, y TreeDyn.
 
 ![imagen](https://github.com/MrPiggie/Informe-Bioinform-tica-IV/blob/master/ProbCons,%20MrBayes,%20y%20TreeDyn.png?raw=true)
 **Imagen IV:** ProbCons, MrBayes, y TreeDyn.
